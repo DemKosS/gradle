@@ -15,7 +15,7 @@ class CashbackHackServiceTest {
     }
 
     @Test
-    public void shouldReturn400() {
+    public void shouldReturn1000() {
         int actual = service.remain(2000);
         int expected = 1000;
 
